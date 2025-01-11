@@ -1,0 +1,70 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Styling for the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the ratings container */
+.ratings {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the user and rate paragraphs */
+.ratings p:nth-child(1),
+.ratings p:nth-child(2) {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styling for the comment */
+.comment {
+    margin-top: 10px;
+}
+
+/* Styling for the time and date paragraphs */
+.ratings p:nth-child(4),
+.ratings p:nth-child(5) {
+    font-style: italic;
+    color: #888;
+}
+
+/* Styling for the additional items */
+.ratings p:nth-child(6),
+.ratings p:nth-child(7),
+.ratings p:nth-child(8) {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

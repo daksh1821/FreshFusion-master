@@ -1,0 +1,638 @@
+.macbook-pro-16-1-child {
+    width: 345px;
+    height: 343px;
+    position: relative;
+    background-color: #d9d9d9;
+    display: none;
+    max-width: 100%;
+  }
+  .macbook-pro-16-1-item {
+    width: 287px;
+    height: 290px;
+    position: relative;
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .curved-shape-and-glass-bubbles {
+    height: 103px;
+    width: 130px;
+    position: relative;
+    object-fit: cover;
+  }
+  .fresh1,
+  .p {
+    margin: 0;
+  }
+  .p {
+    white-space: pre-wrap;
+  }
+  .fresh {
+    width: 153.8px;
+    height: 34.1px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .fresh,
+  .fusion1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    text-shadow: 1px 0 0 rgba(237, 85, 185, 0.9), 0 1px 0 rgba(237, 85, 185, 0.9),
+      -1px 0 0 rgba(237, 85, 185, 0.9), 0-1px 0 rgba(237, 85, 185, 0.9);
+  }
+  .fresh-parent,
+  .fusion,
+  .fusion1 {
+    align-self: stretch;
+    flex: 1;
+  }
+  .fusion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 39px;
+    margin-top: -0.4px;
+  }
+  .fresh-parent {
+    flex-direction: column;
+  }
+  .curved-shape-and-glass-bubbles-parent,
+  .frame-wrapper,
+  .fresh-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-wrapper {
+    height: 83.15px;
+    flex: 1;
+    flex-direction: column;
+    padding: 14.049999999999956px 0 0;
+    box-sizing: border-box;
+  }
+  .curved-shape-and-glass-bubbles-parent {
+    width: 329px;
+    flex-direction: row;
+    min-width: 329px;
+    max-width: 100%;
+  }
+  .affordable-prices1 {
+    position: relative;
+  }
+  .affordable-prices {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 28px;
+  }
+  .our-dry-cleaning {
+    margin: 0;
+    position: relative;
+    font-size: 43px;
+    font-weight: 400;
+    font-family: var(--font-itim);
+    color: var(--color-black);
+  }
+  .ladies-gown-price-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3.4px 0;
+  }
+  .our-prices-are {
+    margin: 0;
+  }
+  .with-the-high {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .our-prices-are-container {
+    position: relative;
+  }
+  .shirt-price-frame,
+  .simple-affordable-prices {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .simple-affordable-prices {
+    flex-direction: row;
+    padding: 0 51px;
+    font-size: 17px;
+    color: #909090;
+    font-family: var(--font-itim);
+  }
+  .shirt-price-frame {
+    flex-direction: column;
+    gap: 11.9px 0;
+  }
+  .frame-parent,
+  .order-now-button-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .order-now-button-container {
+    width: 660px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 9px 0 0;
+    box-sizing: border-box;
+    min-width: 660px;
+    font-size: var(--font-size-7xl);
+    color: #00f035;
+  }
+  .frame-parent {
+    width: 1176px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .ladies-gown-frame-child {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .shirts {
+    position: relative;
+    z-index: 1;
+  }
+  .shirts-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-19xl);
+  }
+  .rs-99-per {
+    position: relative;
+    color: var(--color-limegreen);
+    z-index: 1;
+  }
+  .ladies-gown-frame,
+  .ladies-gown-frame-item {
+    height: 290px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+  }
+  .ladies-gown-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--padding-27xl) 68px var(--padding-27xl) var(--padding-50xl);
+    box-sizing: border-box;
+    gap: 15px 0;
+  }
+  .ladies-gown-frame-item {
+    width: 290px;
+    position: relative;
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .ladies-gown {
+    height: 28px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .ladies-gown-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 7px 0 14px;
+  }
+  .rs-199-per {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    color: var(--color-limegreen);
+    z-index: 1;
+  }
+  .frame-child,
+  .ladies-gown-frame1 {
+    height: 290px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+  }
+  .ladies-gown-frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--padding-27xl) 60px var(--padding-27xl) 64px;
+    box-sizing: border-box;
+    gap: 15px 0;
+    font-size: 23px;
+  }
+  .frame-child {
+    width: 290px;
+    position: relative;
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .iron-service,
+  .rs-69-per {
+    position: relative;
+    z-index: 1;
+  }
+  .rs-69-per {
+    font-size: var(--font-size-5xl);
+    color: var(--color-limegreen);
+    white-space: pre-wrap;
+  }
+  .iron-service-frame,
+  .rectangle-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rectangle-parent {
+    flex: 1;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+    justify-content: flex-end;
+    padding: var(--padding-21xl) 59px var(--padding-21xl) 71px;
+    gap: 21px 0;
+  }
+  .iron-service-frame {
+    height: 290px;
+    justify-content: flex-start;
+    padding: 0 4px 0 0;
+    box-sizing: border-box;
+    font-size: 25px;
+  }
+  .ladies-gown-frame-inner {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+    display: none;
+    mix-blend-mode: normal;
+  }
+  .blankie {
+    position: relative;
+    z-index: 1;
+  }
+  .blankie-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 35px 0 var(--padding-19xl);
+  }
+  .rs-99-per1 {
+    position: relative;
+    color: var(--color-limegreen);
+    white-space: pre-wrap;
+    z-index: 1;
+  }
+  .ladies-gown-frame2 {
+    height: 290px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: var(--padding-27xl) var(--padding-42xl) var(--padding-27xl)
+      var(--padding-50xl);
+    box-sizing: border-box;
+    gap: 15px 0;
+  }
+  .frame-container,
+  .product-container,
+  .shirt-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .shirt-frame {
+    width: 1590px;
+    justify-content: space-between;
+    padding: 0 1px 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+  }
+  .frame-container,
+  .product-container {
+    align-self: stretch;
+    justify-content: flex-end;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .frame-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 60px 0;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+    color: var(--color-gray-200);
+    font-family: var(--font-inter);
+  }
+  .order-now,
+  .order-now1 {
+    width: 66px;
+  }
+  .frame-inner,
+  .frame-item,
+  .order-now,
+  .order-now1 {
+    position: relative;
+    display: none;
+  }
+  .frame-item {
+    height: 399px;
+    width: 297px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 13px 10px rgba(0, 0, 0, 0.25);
+  }
+  .frame-inner {
+    height: 23px;
+    width: 81px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-gray-100);
+    border: 2px solid var(--color-limegreen);
+    box-sizing: border-box;
+  }
+  .order-now2 {
+    position: relative;
+    z-index: 2;
+  }
+  .rectangle-container,
+  .rectangle-group {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .rectangle-container {
+    width: 81px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-gray-100);
+    border: 2px solid var(--color-limegreen);
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-11xs) var(--padding-10xs)
+      var(--padding-10xs);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .rectangle-group {
+    height: 399px;
+    width: 297px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 13px 10px rgba(0, 0, 0, 0.25);
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--padding-3xs) 75px;
+  }
+  .frame-child1,
+  .rectangle-div {
+    position: relative;
+    background-color: var(--color-white);
+    display: none;
+  }
+  .rectangle-div {
+    height: 399px;
+    width: 297px;
+    box-shadow: 0 4px 13px 10px rgba(0, 0, 0, 0.25);
+  }
+  .frame-child1 {
+    height: 23px;
+    width: 81px;
+    border-radius: var(--br-7xs);
+    border: 2px solid var(--color-limegreen);
+    box-sizing: border-box;
+  }
+  .order-now3 {
+    position: relative;
+    z-index: 2;
+  }
+  .frame-div,
+  .rectangle-parent1 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .rectangle-parent1 {
+    width: 81px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-limegreen);
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-11xs) var(--padding-10xs)
+      var(--padding-10xs);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-div {
+    height: 399px;
+    width: 298px;
+    box-shadow: 0 4px 13px 10px rgba(0, 0, 0, 0.25);
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 16px var(--padding-42xl);
+  }
+  .frame-child2,
+  .frame-child3,
+  .frame-div {
+    background-color: var(--color-white);
+  }
+  .frame-child2 {
+    height: 399px;
+    width: 297px;
+    position: relative;
+    box-shadow: 0 4px 13px 10px rgba(0, 0, 0, 0.25);
+    display: none;
+  }
+  .frame-child3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-7xs);
+    border: 2px solid var(--color-limegreen);
+    box-sizing: border-box;
+    width: 81px;
+    height: 24px;
+    z-index: 1;
+  }
+  .order-now4 {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    display: inline-block;
+    width: 72px;
+    height: 27px;
+    z-index: 2;
+  }
+  .rectangle-parent3 {
+    height: 30px;
+    width: 81px;
+    position: relative;
+  }
+  .rectangle-parent2 {
+    height: 399px;
+    width: 297px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 13px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--padding-3xs) 57px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .macbook-pro-16-1,
+  .macbook-pro-16-1-inner {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    color: var(--color-limegreen);
+    font-family: var(--font-inter);
+  }
+  .macbook-pro-16-1-inner {
+    width: 1516px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 50px;
+    max-width: 100%;
+    font-size: var(--font-size-sm);
+  }
+  .macbook-pro-16-1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 13px 85px 15px 8px;
+    gap: 197px 0;
+    letter-spacing: normal;
+    font-size: var(--font-size-smi);
+  }
+  @media screen and (max-width: 1350px) {
+    .shirt-frame {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .macbook-pro-16-1-inner {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .curved-shape-and-glass-bubbles-parent,
+    .order-now-button-container {
+      flex: 1;
+    }
+    .frame-group,
+    .frame-parent {
+      flex-wrap: wrap;
+    }
+    .macbook-pro-16-1 {
+      gap: 98px 0;
+      padding-right: 42px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .fresh,
+    .fusion1 {
+      font-size: var(--font-size-10xl);
+    }
+    .our-dry-cleaning {
+      font-size: 34px;
+    }
+    .simple-affordable-prices {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .order-now-button-container {
+      min-width: 100%;
+    }
+    .frame-container {
+      gap: 30px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .fresh,
+    .fusion1 {
+      font-size: var(--font-size-3xl);
+    }
+    .affordable-prices1 {
+      font-size: 21px;
+    }
+    .our-dry-cleaning {
+      font-size: var(--font-size-7xl);
+    }
+    .rs-99-per,
+    .shirts {
+      font-size: var(--font-size-lgi);
+    }
+    .ladies-gown-frame {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .ladies-gown {
+      font-size: 18px;
+    }
+    .rs-199-per {
+      font-size: var(--font-size-lgi);
+    }
+    .ladies-gown-frame1 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .iron-service {
+      font-size: 20px;
+    }
+    .rs-69-per {
+      font-size: var(--font-size-lgi);
+    }
+    .rectangle-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .blankie,
+    .rs-99-per1 {
+      font-size: var(--font-size-lgi);
+    }
+    .ladies-gown-frame2,
+    .macbook-pro-16-1 {
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .ladies-gown-frame2 {
+      padding-left: var(--padding-xl);
+    }
+}

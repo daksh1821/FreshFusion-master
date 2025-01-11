@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give Your Ratings and Reviews</title>
+    <link rel="stylesheet" href="newcomment.css">
+    <style>
+        /* Centering the form */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border-color: 2px solid black;
+            border-radius: 0px;
+        }
+        /* Styling the form */
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-box{
+            border: 2px solid #ccc; /* Add border */
+            border-radius: 10px; /* Add border radius */
+            padding: 20px; /* Add padding */
+            width: 400px; 
+            background-color: #f9f9f9;/* Set width */
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        textarea, input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .rating {
+            margin-top: 5px;
+        }
+        .rating input[type="radio"] {
+            display: none;
+        }
+        .rating label {
+            display: inline-block;
+            font-size: 24px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input[type="radio"]:checked ~ label {
+            color: gold;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <% include('navbar.ejs') %>
+    <div class="container">
+        <div class="form-box">
+            <h3>Give your ratings and reviews</h3>
+            <form method="post" action="/comment">
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" placeholder="Write your feedback here" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="starRating">Rating:</label>
+                    <div class="rating">
+                        <input type="radio" id="star5" name="starRating" value="5"><label for="star5" title="5 stars">★</label>
+                        <input type="radio" id="star4" name="starRating" value="4"><label for="star4" title="4 stars">★</label>
+                        <input type="radio" id="star3" name="starRating" value="3"><label for="star3" title="3 stars">★</label>
+                        <input type="radio" id="star2" name="starRating" value="2"><label for="star2" title="2 stars">★</label>
+                        <input type="radio" id="star1" name="starRating" value="1"><label for="star1" title="1 star">★</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" placeholder="Enter your location">
+                </div>
+                <div class="form-group">
+                    <label for="serviceQuality">Service Quality (Out of 10):</label>
+                    <input type="number" id="serviceQuality" name="serviceQuality" min="1" max="10" placeholder="Rate the service quality">
+                </div>
+                <div class="form-group">
+                    <label for="overallExperience">Overall Experience:</label>
+                    <select id="overallExperience" name="overallExperience">
+                        <option value="Excellent">Excellent</option>
+                        <option value="Good">Good</option>
+                        <option value="Average">Average</option>
+                        <option value="Poor">Poor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body{
+    background:#00CED1;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    
+    .main-section{
+    background:#FFFFFF;
+    width:80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top:50px;
+    box-shadow:0px 2px 7px 1px #aa9191;
+    }
+    .hedding-title h1{
+    margin:0px;
+    padding:0px 0px 10px 0px;
+    font-size:25px;
+    }
+    .average-rating{
+    float:left;
+    text-align: center;
+    width:30%;
+    }
+    .average-rating h2{
+    margin:0px;
+    font-size:80px;
+    }
+    .average-rating p{
+    margin:0px;
+    font-size:20px;
+    }
+    .fa-star,.fa-star-o,.fa-star-half-o{
+    color:#FDC91B;
+    font-size:25px !important;
+    }
+    .progress,.progress-2,.progress-3,.progress-4,.progress-5{
+    background:#F5F5F5;
+    border-radius: 13px;
+    height:18px;
+    width:97%;
+    padding:3px;
+    margin:5px 0px 3px 0px;
+    }
+    .progress:after,.progress-2:after,.progress-3:after,.progress-4:after,.progress-5:after{
+    content: '';
+    display: block;
+    background: #337AB7;
+    width:80%;
+    height: 100%;
+    border-radius: 9px;
+    }
+    .progress-2:after{
+    width: 60%;
+    }
+    .progress-3:after{
+    width:40%;
+    }
+    .progress-4:after{
+    width:20%;
+    }
+    .progress-5:after{
+    width:10%;
+    }
+    .loder-ratimg{
+    display: inline-block;
+    width:40%;
+    }
+    .start-part{
+    float:right;
+    width:30%;
+    text-align: center;
+    }
+    .start-part span{
+    color:#337AB7;
+    font-size:23px;
+    }
+    .reviews h1{
+    margin:10px 0px 20px 30px;
+    }
+img{
+    height: 80px;
+    width: 80px;
+    border:1px solid blue;
+    border-radius: 50%;
+    }
+    .user-img-part{
+    width:30%;
+    float:left;
+    }
+    .user-img{
+    width:48%;
+    float:left;
+    text-align: center;
+    }
+    .user-text{
+    float:left;
+    }
+    .user-text h4,.user-text p{
+    margin:0px 0px 5px 0px;
+    }
+    .user-text p{
+    font-size: 20px;
+    font-weight: bold;
+    }
+    .user-text h4,.user-text span{
+    color:#B3B5B4;
+    }
+    .comment{
+    width:68%;
+    float:right;
+    
+    }
+    .reviewbtn{
+        cursor: pointer;
+        border-radius: 5px 5px 5px 5px;
+        border-color: 2px solid whitesmoke;
+    }

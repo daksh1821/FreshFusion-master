@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Services</title>
+    <style>
+        body {
+            margin: 0;
+            padding-top: 70px;
+            font-family: Arial, sans-serif;
+        }
+        .looking {
+            color: rgb(0, 255, 38);
+            text-align: center;
+        }
+        .best {
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+        .sections {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .services {
+            flex: 0 1 25%;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px; /* Add padding to create space */
+        }
+        .services img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px; /* Add margin-bottom to create space between image and text */
+        }
+		.our-features p{
+			font-size: 24px;
+			color: rgb(0, 255, 38);
+		}
+		.features{
+			margin-left: 80px;
+		}
+    </style>
+</head>
+<body>
+    <%- include('navbar.ejs') %>
+    <div class="looking">
+        <p>[ Looking dry cleaning & Laundry shop near me? ]</p>
+    </div>
+    <div class="best">
+        <h2>Best Dry Cleaning and Laundry Shops in your area </h2>
+    </div>
+    <div class="sections">
+        <div class="services">
+            <img src="https://www.drypure.in/images/img07.jpg" alt="Dry Pure Image">
+            <p>
+                Laundry Services
+                Let us pick up your dirty laundry, 
+                sort it, pre-treat stains, wash, dry, fold 
+                and deliver back to you in one neat.
+            </p>
+        </div>
+        <div class="services">
+            <img src="https://www.drypure.in/images/img08.jpg" alt="Dry Cleaning Image">
+            <p>
+                Dry Cleaning Services
+                Dry cleaning is a great way to keep your
+                clothes looking and feeling their best.
+            </p>
+        </div>
+        <div class="services">
+            <img src="https://www.drypure.in/images/img09.jpg" alt="Carpet Cleaning">
+            <p>
+                Carpet Cleaning
+                we recommend professional deep cleaning 
+                your carpet every 12 to 18 months.
+            </p>
+        </div>
+        <div class="services">
+            <img src="https://www.drypure.in/images/img11.jpg" alt="Ironing Image">
+            <p>
+                Steam Iron
+                These services are accomplished under 
+                the guidance of adroit personnel who have 
+                affluent industry proficiency.
+            </p>
+        </div>
+		<div class="services">
+			<img src="https://www.drypure.in/images/img10.jpg" alt="Alteration Iamge">
+			<p>
+				We have expert seamstresses and tailors on staff 
+				to ensure we meet and exceed your fitting 
+				requirements. Our skilled team will work with you  
+				from start to finish.
+			</p>
+		</div>
+		<div class="services">
+			<img src="https://www.drypure.in/images/img12.jpg" alt="Shoe Image">
+			<p>
+			    We use premium cleaning products and standardised 
+				processes to take care of your shoes and give 
+				them refreshed look.
+			</p>
+		</div>
+    </div>
+	<div class="features">
+		<div class="our-features">
+			<p>[Why you'll Love Us]</p>
+			<h1>Our Features</h1>
+			<h2>Eco Freindly Dry Cleaning</h2>
+			<h2>Wash and Fold</h2>
+			<h2>Package Delivery</h2>
+			<h2>Fabric Detection with AI</h2>
+		</div>
+        <div class="coupons">
+            
+        </div>
+	</div>
+</body>
+</html>

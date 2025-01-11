@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All data</title>
+    <link rel="stylesheet" href="comment.css" />
+</head>
+<body>
+    <form method="get" action="/comment/new">
+        <button>Add your ratings</button>
+    </form>
+    
+    <% for(let x of allcomments){ %>
+        <div class="ratings">
+            <p> User: <%= x.userName %></p>
+            <p>Rate: <%= x.starRating %> stars</p>
+            <div class="comment">
+                <p><%= x.feedback %></p>
+            </div>
+            <p>Time: <%= x.created_at.toString().split(" ")[4] %></p>
+            <p>Date: <%= x.created_at.toString().split(" ").slice(0,4).join(" ") %></p>
+            <!-- New items added -->
+            <p>Location: <%= x.location %></p>
+            <p>Service Quality: <%= x.serviceQuality %> 9 out of 10</p>
+            <p>Overall Experience: <%= x.overallExperience %></p>
+        </div>
+   <% } %>
+
+</body>
+</html>

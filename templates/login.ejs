@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/295/295128.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <%- include('navbar.ejs') %>
+    <div class="container">
+        <div class="container-wrapper">
+
+            <h3 class="login-text"><i class="bi bi-person-circle ac-logo"></i>Login</h3>
+        
+            <form action="/login" method="post">
+                <div class="item"><input class="input" type="email"  name="email" placeholder="email"></div> 
+                <div class="item"><input class="input" type="password" name="password" placeholder="Password"> </div>
+                <span class="remember"> <a href="#">Forgot Password?</a> </span>
+
+                <div class="item submit"><button type="submit">Submit</button></div>
+            </form>
+            <h2><span>OR</span></h2>
+         
+            <div class="social-media">
+
+                <form method="get"action="http://127.0.0.1:3000/fresh-fusion-main/fresh-fusion-main/src/">
+                    <button class ="icons8-google social-mediaImg"></button></form> 
+                
+  
+            </div>
+            <span class="ac">Don't have an Account? <a href="signup">Sign Up</a></span>
+        </div>
+        
+    </div>
+</body>
+
+</html>
